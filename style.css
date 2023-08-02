@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 10%;
+}
+#container{
+    height: 70%;
+}
+.inside-con{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 17vh 150px 17vh 150px;
+}
+.player img{
+    aspect-ratio: 7/3;
+    width: 100%;
+    mix-blend-mode: darken;
+    object-fit: contain;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-bottom: 22px;
+}
+.item button{
+    margin: 10px 20px;
+    padding: 12px;
+    background-color: gray;
+    color: white;
+    border-radius: 6px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 20%;
+}
